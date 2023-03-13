@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <H2>Task -1</H2>
+    </header>
+    <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="login.html">LOGIN</a></li>
+    </ul>
+    <main>
+               
+        <form action="" method="">
+            <div>
+                <label for="name">Name : </label><br>
+                <input type="text" id="inputName" placeholder="Enter your name " required>
+                <br>
+                <br>
+                <label for="name">Email : </label><br>
+                <input type="email" id="inputEmail" placeholder="Enter your email id">
+                <br>
+                <br>
+                <label for="password">Password :</label><br>
+                <input type="password" id="inputPassword" placeholder="Enter your password"><br>
+                <span id="message" style="color:red"> </span><br>
+                <br>
+                <label for="Confirm Password">Conform Password :</label><br>
+                <input type="password" id="inputConformPassword" placeholder="Conform Password">
+                <br>
+                <br>
+                <label for="name">Date : </label><br>
+                <input type="date" id="inputDate">
+                <br>
+                <br>
+                <label for="name">File : </label><br>
+                <input type="file" id="inputFile">
+                <br>
+                <br>
+                <label for="name">Time : </label><br>
+                <input type="time" id="inputTime">
+                <br>
+                <br>
+                <label for="name">Week : </label><br>
+                <input type="week" id="inputWeek">
+                <br>
+                <br>
+                <label for="name">Color : </label><br>
+                <input type="color" id="inputColor">
+                <br>
+                <br>
+                <label for="name">Number : </label><br>
+                <input type="number" id="inputNumber" placeholder="Enter a number...">
+                <br>
+                <br>
+                <label for="name">Range : </label><br>
+                <input type="range" id="inputRange">
+                <br>
+                <br>
+                <label for="name">URL : </label><br>
+                <input type="url" id="inputUrl" placeholder="Enter a URL"><br>
+                <br>
+                <br>
+                <label for="phone">phoneNumber :</label><br>
+                <input type="tel" id="inputTel" placeholder="Enter your phoneNumber">
+                <br>
+                <br>
+
+                <button id="inputButton" type="button" onclick="displayValues()">save</button>
+                <button id="resetButton" type="reset">reset</button>
+
+            </div>
+        </form>
+    </main>
+</body>
+<script src="script.js">
+</script>
+</html>

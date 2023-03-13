@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: px;
+  border: 2px soild black;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
+  
+
+  
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  background-color: #0f0f0f;
+  overflow: hidden;
+  margin-bottom: 20px;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li a:hover {
+  background-color: lightblue;
+}
+
+main {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+#login {
+
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  margin-top: 200px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: 1px solid;
+  border-radius: 10px;
+  padding-top: 20px;
+  margin: 50px auto;
+  
+}
+#userEmail {
+  border-radius: 10px;
+  outline: none;
+  padding: 10px;
+  text-align: center;
+  border: 0;
+  background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#userPassword {
+  border-radius: 10px;
+  outline: none;
+  padding: 10px;
+  text-align: center;
+  border: 0;
+  background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#userButton {
+  padding: 10px;
+  border-radius: 10px;
+  border: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 60px;
+}
+
+
+#inputName {
+  border-radius: 10px;
+  outline: none;
+  padding: 10px;
+  text-align: center;
+  border: 0;
+  background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#inputButton {
+  padding: 10px;
+  border-radius: 10px;
+  border: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 60px;
+}
+
+#resetButton {
+  padding: 10px;
+  border-radius: 10px;
+  border: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 60px;
+}
+
+#inputEmail {
+  border-radius: 10px;
+  outline: none;
+  padding: 10px;
+  text-align: center;
+  border: 0;
+  background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#inputPassword {
+  border-radius: 10px;
+  outline: none;
+  padding: 10px;
+  text-align: center;
+  border: 0;
+  background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#inputConformPassword {
+  border-radius: 10px;
+  outline: none;
+  padding: 10px;
+  text-align: center;
+  border: 0;
+  background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#inputDate {
+  border-radius: 10px;
+  outline: none;
+  padding: 10px;
+  text-align: center;
+  border: 0;
+  background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 160px;
+
+}
+
+#inputFile {
+  border-radius: 10px;
+  outline: none;
+  padding: 10px;
+  text-align: center;
+  border: 0;
+  background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 160px;
+
+}
+
+#inputImage {
+  border-radius: 10px;
+  outline: none;
+  padding: 10px;
+  border: 0;
+  background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 160px;
+
+}
+
+#inputTime {
+  border-radius: 10px;
+  outline: none;
+  padding: 10px;
+  text-align: center;
+  border: 0;
+  background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 160px;
+
+}
+
+#inputWeek {
+  border-radius: 10px;
+  outline: none;
+  padding: 10px;
+  text-align: center;
+  border: 0;
+  background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 160px;
+
+}
+
+#inputColor {
+  border-radius: 10px;
+  outline: none;
+  padding: 10px;
+  text-align: center;
+  border: 0;
+  background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 170px;
+  height: 40px;
+
+}
+
+#inputNumber {
+  border-radius: 10px;
+  outline: none;
+  padding: 10px;
+  text-align: center;
+  border: 0;
+  background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 160px;
+
+
+}
+
+#inputRange {
+  outline: none;
+  padding: 10px;
+  border: 1px;
+  width: 155px;
+
+}
+
+#inputUrl {
+  border-radius: 10px;
+  outline: none;
+  padding: 10px;
+  text-align: center;
+  border: 0;
+  background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 160px;
+
+}
+
+#inputTel {
+  border-radius: 10px;
+  outline: none;
+  padding: 10px;
+  text-align: center;
+  border: 0;
+  background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 160px;
+
+}
+
+#output {
+  padding: 20px;
+  background-color: lightblue;
+  margin-top: 100px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+label {
+  font-family: Arial, Helvetica, sans-serif;  
+
+}
